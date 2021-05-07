@@ -1,0 +1,21 @@
+                                .container {
+                                    position: absolute;
+                                    height: auto;
+                                    width: 920px;
+                                    background-color: black;
+                                }
+                                
+                                img {
+                                    height: 180px;
+                                    padding: 1px;
+                                    width: 200px;
+                                }
+                                
+                                button {
+                                    margin: 0;
+                                    position: absolute;
+                                    top: 110%;
+                                    left: 50%;
+                                    -ms-transform: translate(-50%, -50%);
+                                    transform: translate(-50%, -50%);
+                                }
