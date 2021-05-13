@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="ninjaAGato.css">
+    <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('img').click(function() {
+                $(this).attr('placeholder', $(this).attr('src'));
+                $(this).attr('src', $(this).attr('data-alt-src'));
+                $(this).attr('data-alt-src', $(this).attr('placeholder'));
+            })
+        })
+    </script>
+
+    <body>
+        <div>
+            <img id="one" src="ninja0.png" data-alt-src="cat0.png">
+            <img id="two" src="ninja1.png" data-alt-src="cat1.png">
+            <img id="three" src="ninja2.png" data-alt-src="cat2.png">
+            <img id="four" src="ninja3.png" data-alt-src="cat3.png">
+            <img id="five" src="ninja4.png" data-alt-src="cat4.png">
+        </div>
+
+    </body>
+
+</html>

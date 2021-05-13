@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'stranger';
+    src: local('stranger');
+    [font-weight: <weight>];
+    [font-style: <estilo>];
+    [font-stretch]: <stretch>];
+    [unicode-range]: <range>];
+}
+
+#container {
+    width: 800px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: ivory
+}
+
+.borde {
+    border-color: rgb(194, 0, 0);
+    border-width: 5px;
+    border-style: solid;
+}
+
+.centrar {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.imagen {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fadein {
+    position: absolute;
+    width: 550px;
+    height: 200px;
+    font-size: 36px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: red;
+    padding-top: 25px;
+    top: 180px;
+    left: 400px;
+    display: none;
+}
+
+span {
+    display: none;
+}
